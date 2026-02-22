@@ -14,7 +14,7 @@ module tb_RISCV_CPU();
         reset = 1'b1;
         #25;
         reset = 1'b0;
-        #5;
+        #13;
     
         $stop;
     end

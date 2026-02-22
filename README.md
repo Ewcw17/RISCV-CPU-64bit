@@ -38,4 +38,9 @@ Below is an image of a testbench for the Data Memory:
 ![fire](https://github.com/Ewcw17/RISCV-CPU-64bit/blob/main/Pictures/Data_Memory_Testbench.png?raw=true)
 As can be observed, while the MemWrite signal is high, the data is written to memory. Subsequently, when the MemRead signal is high, that same value can be read from memory. As per specification, MemRead and MemWrite should never be asserted simultaneously; they produce 0 as a result.
 
-To test the final implementation of the RISC-V CPU, a short assembly program was written
+Similarly for the Data Memory, testbenches were performed for a large majority of the modules. They can be found in /Testbenches
+
+# À faire
+- Implementation of the remaining instruction types(Easy)
+- Pipelined implementation for efficiency(Medium)
+- Proper testing of a full assembly program(Easy)

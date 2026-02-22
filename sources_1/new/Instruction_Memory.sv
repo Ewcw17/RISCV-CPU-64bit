@@ -7,9 +7,9 @@ module Instruction_Memory(
     
     initial
 		$readmemh("test.txt.txt", Not_Memory);
-		//Add r17 r5 r4
-		//or r18 r3 r2
-		//sd r17 0(r10)
+		//Add r17 r4 r5
+		//or r18 r2 r3
+		//sd r17 6(r10)
     always_comb begin
         Instruction = Not_Memory[Current_Address[31:2]];
     end
