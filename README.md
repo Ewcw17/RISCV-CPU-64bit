@@ -40,7 +40,12 @@ As can be observed, while the MemWrite signal is high, the data is written to me
 
 Similarly for the Data Memory, testbenches were performed for a large majority of the modules. They can be found in /Testbenches
 
-# À faire
+# À faire (Future Work)
 - Implementation of the remaining instruction types(Easy)
 - Pipelined implementation for efficiency(Medium)
 - Proper testing of a full assembly program(Easy)
+
+# Credit
+D. A. Patterson and J. L. Hennessy, Computer Organization and Design RISC-V Edition: The Hardware Software Interface, 1st ed. San Francisco, CA, USA: Morgan Kaufmann Publishers Inc., 2017
+
+Special thanks to dpkot for inspiration and motivating me to continue :)
